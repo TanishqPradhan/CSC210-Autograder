@@ -1,0 +1,5 @@
+{
+  "numPoints": 2,
+  "testInfo": "This tests whether or not your program calculates the correct order total",
+  "testErrorHint": "The error occurs mostly when your order calculation is not implemented correctly"
+}

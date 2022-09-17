@@ -1,0 +1,60 @@
+{
+  "errors": {
+    "NullPointerException": {
+      "name": "NullPointerException",
+      "description": "This is an exception that occurs when your program tries to use a method of a variable that hasn't been defined. \ne.g. \n\t Scanner input; \n\t // input hasn't been defined\n\t input.nextInt()",
+      "hints": [
+        "Check where you declare all of your variables and make sure they are defined before they are used.",
+        "Look at the stack trace to find which line number the NullPointerException is thrown to find out which variable is being used that hadn't been defined yet",
+        "For any variables that could be null, check to make sure they are not null before using them."
+      ]
+    },
+    "ArithmeticException": {
+      "name": "ArithmeticException",
+      "description": "This is an exception that usually occurs when your program tries to divide by zero",
+      "hints": [
+        "Look through your code for any division or modulus operations. Before these operations are run, make sure to check if the denominator is 0."
+      ]
+    },
+    "IndexOutOfBoundsException": {
+      "name": "IndexOutOfBoundsException",
+      "description": "This is an exception that occurs when your program is trying to access memory outside of an array or list's allocated memory.",
+      "possibleErrorSource": [
+        "makeMove()"
+      ],
+      "hints": [
+        "Check any places where you are accessing an index of an array",
+        "What is the size and range of the array?"
+      ]
+    },
+    "ArrayIndexOutOfBoundsException": {
+      "name": "ArrayIndexOutOfBoundsException",
+      "description": "This is an exception that occurs when your program is trying to access memory (or index) outside of an array's allocated memory. \ne.g. An array of size 9, and your program tries to access index 10.",
+      "possibleErrorSource": [
+        "makeMove()"
+      ],
+      "hints": [
+        "Make sure to check if users enter an invalid cell",
+        "What is the range of numbers that a users can choose that are valid on the Tic Tac Toe board"
+      ]
+    },
+    "NoSuchElementException": {
+      "name": "NoSuchElementException",
+      "description": "This is an exception that occurs when Scanner tries reading input that doesn't exist.",
+      "possibleErrorSource": [
+        "makeMove()"
+      ],
+      "hints": [
+        "Check if Scanner still has any input with the Scanner.hasNext() function."
+      ]
+    },
+    "Exception": {
+      "description": "This is an exception that was not expected to occur.\nYou will need to manually debug why this exception was thrown.",
+      "possibleErrorSource": [],
+      "hints": [
+        "Look up on Google what the exception is and in what causes this exception.",
+        "Look at the line of code where the exception was thrown."
+      ]
+    }
+  }
+}

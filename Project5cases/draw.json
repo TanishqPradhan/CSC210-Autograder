@@ -1,0 +1,5 @@
+{
+  "numPoints": 2,
+  "testInfo": "This tests whether or not your program checks for a draw",
+  "testErrorHint": "The error most likely occurs from isDraw()"
+}

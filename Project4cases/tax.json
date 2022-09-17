@@ -1,0 +1,5 @@
+{
+  "numPoints": 3,
+  "testInfo": "This tests whether or not your program calculates the tax amount correctly",
+  "testErrorHint": "The error occurs mostly when your implementation of tax calculation is wrong"
+}

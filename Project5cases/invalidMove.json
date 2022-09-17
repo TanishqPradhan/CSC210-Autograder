@@ -1,0 +1,5 @@
+{
+    "numPoints": 2,
+    "testInfo": "This tests whether or not your program checks for an invalid move such as the cell doesn't exist.",
+    "testErrorHint": "The error most likely occurs from makeMove()"
+}
